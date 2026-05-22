@@ -1,0 +1,20 @@
+{
+  "name": "product-crud",
+  "version": "1.0.0",
+  "description": "Product CRUD API implemented with MongoDB and MySQL",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^7.6.0",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
